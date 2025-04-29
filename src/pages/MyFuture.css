@@ -1,0 +1,171 @@
+.my-future {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 40px 30px;
+  background: linear-gradient(135deg, #f0f8ff, #e6f7ff);
+  border-radius: 30px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  text-align: center;
+  animation: fadeInUp 1s ease-out;
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: #007acc;
+  margin-bottom: 25px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+  color: #007acc;
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: #007acc;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 20px;
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto 50px;
+}
+
+ol li {
+  font-size: 20px;
+  color: #444;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  position: relative;
+  line-height: 1.5;
+}
+
+ol li::before {
+  content: "•";
+  position: absolute;
+  left: -25px;
+  font-size: 30px;
+  color: #007acc;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto 50px;
+}
+
+.timeline li {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.timeline li:before {
+  content: "⏳";
+  position: absolute;
+  left: -20px;
+  font-size: 25px;
+  color: #007acc;
+}
+
+blockquote {
+  font-size: 22px;
+  font-style: italic;
+  background: #f9f9f9;
+  padding: 25px 40px;
+  border-left: 6px solid #007acc;
+  margin: 40px auto;
+  font-weight: 600;
+  max-width: 900px;
+  color: #333;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.my-future h2, .timeline li, .timeline li:before, blockquote {
+  animation: fadeInUp 1s ease-out;
+}
+
+.my-future h2, .timeline li, .timeline li:before, blockquote {
+  transition: all 0.3s ease-in-out;
+}
+
+.timeline li:hover, blockquote:hover {
+  background: rgba(0, 122, 204, 0.1);
+  transform: translateX(5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.timeline li:hover:before {
+  color: #d070a2;
+}
+
+blockquote:hover {
+  color: #007acc;
+}
+
+ol li:hover {
+  color: #007acc;
+  transform: scale(1.05);
+}
+
+ol li:hover::before {
+  color: #d070a2;
+}
+
+@media (max-width: 768px) {
+  .my-future {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .timeline li {
+    font-size: 18px;
+  }
+
+  blockquote {
+    font-size: 20px;
+  }
+}
