@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/18lab/static/css/main.4b016c92.css",
+    "main.js": "/18lab/static/js/main.7585dcc5.js",
+    "static/media/з2.jpg": "/18lab/static/media/з2.7e12906025220d5c9cf1.jpg",
+    "static/media/p1.jpg": "/18lab/static/media/p1.35990d2db9e3ddd62ca9.jpg",
+    "index.html": "/18lab/index.html",
+    "main.4b016c92.css.map": "/18lab/static/css/main.4b016c92.css.map",
+    "main.7585dcc5.js.map": "/18lab/static/js/main.7585dcc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b016c92.css",
+    "static/js/main.7585dcc5.js"
+  ]
+}
